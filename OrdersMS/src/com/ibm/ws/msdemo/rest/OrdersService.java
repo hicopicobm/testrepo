@@ -43,7 +43,7 @@ public class OrdersService {
 		
 		utx = getUserTransaction();
 		em = getEm();
-
+			
 		logger.log(Level.INFO,"Initialising...");
 		
         logger.log(Level.INFO,"Completed initialisation.");
